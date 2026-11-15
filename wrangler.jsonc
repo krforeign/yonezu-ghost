@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "yonezu-ghost",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-11-01",
+  // Static files come straight from public/. Only /api/* runs the Worker.
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  // D1 database for saved guide data, visitor requests and rate-limit counters.
+  // 1) npx wrangler d1 create yonezu-ghost   2) paste the printed database_id below.
+  "d1_databases": [
+    { "binding": "DB", "database_name": "yonezu-ghost", "database_id": "2d960571-dcab-41da-b675-ee97747d58f6" }
+  ],
+  "observability": { "enabled": true }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "yonezu-ghost",
+  "version": "1.0.0",
+  "private": true,
+  "description": "米津玄師 2026 TOUR / GHOST fan page + call guide + setlist stats (Cloudflare Workers + D1)",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:create": "wrangler d1 create yonezu-ghost",
+    "secret:password": "wrangler secret put ADMIN_PASSWORD",
+    "secret:deepl": "wrangler secret put DEEPL_API_KEY"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

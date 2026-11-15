@@ -1,0 +1,23 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://www.youtube.com https://s.ytimg.com https://static.cloudflareinsights.com; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://lrclib.net https://cloudflareinsights.com; img-src 'self' data: blob: https://i.ytimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+/app.js
+  Cache-Control: public, max-age=0, must-revalidate
+/content.js
+  Cache-Control: public, max-age=0, must-revalidate
+/seed.js
+  Cache-Control: public, max-age=0, must-revalidate
+/lives.js
+  Cache-Control: public, max-age=0, must-revalidate
+/style.css
+  Cache-Control: public, max-age=0, must-revalidate
+/dict/*
+  Cache-Control: public, max-age=2592000

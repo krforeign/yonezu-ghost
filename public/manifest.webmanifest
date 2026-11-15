@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "米津玄師 GHOST Fan Page",
+  "short_name": "Yonezu GHOST",
+  "description": "米津玄師 2026 TOUR / GHOST 非公式ファンページ — 公演情報・セトリ統計・コールガイド",
+  "lang": "ja",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#06070D",
+  "theme_color": "#06070D",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
